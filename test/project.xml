@@ -4,4 +4,5 @@
 	<app main="Main" path="export" file="HelloWorld" />
 	<source path="source" />
 	<haxelib name="lime" />
+	<haxelib name="mignon" />
 </project>
