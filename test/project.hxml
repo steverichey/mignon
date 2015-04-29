@@ -1,2 +1,11 @@
+# Enable debugging
+-debug
+
+# Set class path to source folder
 -cp source
+
+# Set Main as main class
 -main Main
+
+# Create Neko target
+-neko export/Main.n
