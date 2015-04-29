@@ -12,6 +12,6 @@ rm -rf project/obj
 echo "Rebuilding native library"
 
 # generate native libraries
-lime rebuild ./project ios -clean
+lime rebuild ./native ios -clean
 
 echo "Complete"
