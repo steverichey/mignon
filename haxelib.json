@@ -1,0 +1,11 @@
+{
+  "name": "mignon",
+  "url": "http://www.github.com/steverichey/mignon",
+  "license": "MIT",
+  "tags": [],
+  "description": "Haxe bindings for native UI elements",
+  "version": "0.0.1",
+  "releasenote": "",
+  "contributors": [ "steverichey" ],
+  "dependencies": {}
+}
