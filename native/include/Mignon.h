@@ -3,7 +3,7 @@
 
 namespace mignon
 {
-    void init();
+	void init();
 }
 
 #endif

@@ -11,6 +11,6 @@ namespace mignon
 
 	void init()
 	{
-                NSLog(@"mignon initialized");
+		NSLog(@"mignon initialized");
 	}
 }
