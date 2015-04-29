@@ -1,5 +1,8 @@
 package com.apple.UIKit;
 
+/**
+ * A UIAlertController object displays an alert message to the user.
+ */
 class UIAlertController
 {
 	/**
@@ -17,11 +20,19 @@ class UIAlertController
 	 */
 	public var preferredStyle(default, null):UIAlertControllerStyle;
 
+  /**
+   * Creates and returns a view controller for displaying an alert to the user.
+   */
 	public function new(title:String, message:String, preferredStyle:UIAlertControllerStyle)
 	{
 		this.title = title;
 		this.message = message;
 		this.preferredStyle = preferredStyle;
+	}
+
+	public function addAction(action:UIAlertAction):Void
+	{
+
 	}
 
 	private function get_title():String
@@ -45,8 +56,18 @@ class UIAlertController
 	}
 }
 
+/**
+ * Constants indicating the type of alert to display.
+ */
 enum UIAlertControllerStyle
 {
+  /**
+   * An action sheet displayed in the context of the view controller that presented it.
+   */
 	ActionSheet;
+
+  /**
+   * An alert displayed modally for the app.
+   */
 	Alert;
 }
