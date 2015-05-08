@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
-	<meta title="HelloWorld" package="com.steverichey.mignontest" version="0.0.1" />
-	<app main="Main" path="export" file="HelloWorld" />
+	<meta title="MignonTest" package="com.steverichey.mignontest" version="0.0.1" />
+	<app main="Main" path="export" file="MignonTest" />
 	<source path="source" />
 	<haxelib name="lime" />
 	<haxelib name="mignon" />

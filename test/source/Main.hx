@@ -2,8 +2,10 @@ package;
 
 import lime.app.Application;
 
+#if ios
 import com.apple.UIKit.UIAlertController;
 import com.apple.UIKit.UIAlertAction;
+#end
 
 class Main extends Application
 {
